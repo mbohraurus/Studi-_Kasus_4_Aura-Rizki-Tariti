@@ -4,6 +4,7 @@ Nama: Aura Rizki Tariti<br>
 NIM: 2609116032<br>
 Kelas: A<br>
 Angkatan: 2026<br>
+Soal: Genap
 
 Dalam program kali ini, saya membuat dictionary berupa daftar novel yang dijual di sebuah toko. Dictionary itu masih dibagi lagi dalam sejumlah sub-dictionary untuk mengelompokkan judul novel sesuai genre atau kategorinya. Key dari setiap genre (sub-dictionary) adalah judul novel, dan value dari masing-masing key adalah sebuah list dengan indeks nol yang memuat harga dan indeks satu yang memuat jumlah eksemplar (ketersediaan stok) dari judul tersebut.
 Di sini, saya juga menyediakan 3 opsi pemrosesan data pada dictionary tersebut yaitu edit harga dan informasi stok (UPDATE), tambahkan judul atau genre baru (CREATE), dan cek informasi per judul (READ). Saya juga menerapkan konsep DELETE dengan pernyataan kondisi: jika nilai indeks satu (stok) dari sebuah key (judul) sama dengan 0, maka key (judul) tersebut dihapus dari dictionary karena berarti stoknya sudah habis dan tidak dijual lagi, kecuali jika pengguna kembali menambahkan judul tersebut lewat opsi tambah judul baru.
